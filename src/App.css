@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.custom-icon {
+  cursor:pointer;
+}
+.btn-outline-success {
+  color: #fff;
+  border-color: #fff;
+}
+.btn-outline-danger {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.btn.btn-outline-success:hover {
+ 
+  background-color: transparent;
+  border-color: #ffffff;
+  /* You can also set other styles like color, border-color, etc. */
+}
+.addnotebutton {
+  background-color: grey;
+}
+.alert{
+position: absolute;
+width: -webkit-fill-available;
+top:56px
+}
+.btn.btn-outline-danger:hover {
+  /* Specify the styles you want to apply when hovering over the button */
+  /* For example, you can set the background-color to transparent */
+  background-color: transparent;
+  border-color: #ffffff;
+  /* You can also set other styles like color, border-color, etc. */
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
