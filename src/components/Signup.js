@@ -7,7 +7,7 @@ function Signup({ showAlert }) {
 
   const signup = (e) => {
     e.preventDefault();
-    fetch("https://i-notebook-api-three-iota.vercel.app/api/auth/signup", {
+    fetch("https://i-notebook-api-three-iota.vercel.app/auth/signup", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
