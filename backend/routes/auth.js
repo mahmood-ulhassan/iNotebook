@@ -9,6 +9,15 @@ const jwt = require("jsonwebtoken");
 const secretKey = "FATIMA_SHEIKH";
 const fetchuser = require("../middleware/fetchuser");
 
+const cors = require('cors');
+const app = express();
+
+// Use CORS middleware
+app.use(cors({
+  origin: 'https://inotebook-teal.vercel.app',  // Replace with your frontend URL
+  methods: ['GET', 'POST'],  // Add the HTTP methods you need
+  allowedHeaders: ['Content-Type'],  // Add headers you want to allow
+}));
 //Create a user endpoint
 
 // ROUTE# 1 ----- Route with validation
