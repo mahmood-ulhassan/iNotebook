@@ -14,7 +14,7 @@ const app = express();
 
 // Use CORS middleware
 app.use(cors({
-  origin: 'https://inotebook-teal.vercel.app',  // Replace with your frontend URL
+  origin: 'https://news-monkey-coral.vercel.app/',  // Replace with your frontend URL
   methods: ['GET', 'POST'],  // Add the HTTP methods you need
   allowedHeaders: ['Content-Type'],  // Add headers you want to allow
 }));
